@@ -6,12 +6,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    color: #333;
+    background:#f4f6f9;
+    color:#333;
 }
 
 header {
-    background: #0a192f;
+    background:#0a192f;
     padding: 15px 40px;
     position: fixed;
     width: 100%;
@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 .hero {
-    background: #112240;
+    background:#112240;
     color: white;
     text-align: center;
     padding: 150px 20px 100px;
@@ -49,7 +49,7 @@ nav ul li a {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background: #64ffda;
+    background:#64ffda;
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -62,7 +62,7 @@ nav ul li a {
 
 .skills span {
     display: inline-block;
-    background: #0a192f;
+    background:#0a192f;
     color: white;
     padding: 8px 15px;
     margin: 5px;
@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 footer {
-    background: #0a192f;
+    background:#0a192f;
     color: white;
     text-align: center;
     padding: 15px;
