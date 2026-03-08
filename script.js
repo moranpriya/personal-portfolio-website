@@ -1,13 +1,20 @@
-document.querySelectorAll("nav a").forEach(function(anchor) {
-    anchor.addEventListener("click", function(e) {
-        e.preventDefault();
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".nav-link");
 
-        const target = document.querySelector(this.getAttribute("href"));
+window.addEventListener("scroll", () => {
+    let current = "";
 
-        if (target) {
-            target.scrollIntoView({
-                behavior: "smooth"
-            });
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (pageYOffset >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
         }
     });
 });

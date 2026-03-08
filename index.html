@@ -1,116 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puja Priya Moran | Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                Puja Priya Moran
+            </a>
 
-<header>
-    <nav>
-        <h2 class="logo">Puja Priya Moran</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">
+                            Education
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">
+                            Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-</header>
 
-<section class="hero">
-    <h1>Computer Science Undergraduate</h1>
-    <p>BTech CSE | BSc (Hons.) Data Science & AI</p>
-    <a href="#contact" class="btn">Contact Me</a>
-</section>
 
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-        Dual-degree Computer Science student pursuing BTech in Computer Science & Engineering
-        and BSc (Hons) in Data Science & Artificial Intelligence.
-        Strong foundation in Data Structures, Algorithms, and Machine Learning
-        with hands-on experience in system development and ML projects.
-    </p>
-</section>
 
-<section id="education" class="section">
-    <h2>Education</h2>
-    <ul>
-        <li><strong>Dhemaji Engineering College</strong> – BTech CSE</li>
-        <li><strong>IIT Guwahati</strong> – BSc (Hons.) Data Science & AI</li>
-        <li><strong>Ramanujan Senior Secondary School, Nagaon</strong> – Higher Secondary</li>
-        <li><strong>Jatiya Vidyalaya, Kakopather</strong> – High School</li>
-    </ul>
-</section>
+    <div class="container">
+        <header>
+            <img
+                src="Profile.jpeg"
+                alt="Puja Priya Moran"
+                class="profile-pic">
 
-<section id="skills" class="section">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <span>Python</span>
-        <span>C/C++</span>
-        <span>JavaScript</span>
-        <span>SQL (MySQL)</span>
-        <span>HTML/CSS</span>
-        <span>Machine Learning</span>
-        <span>NLP</span>
-        <span>TensorFlow</span>
-        <span>Scikit-learn</span>
-        <span>Pandas</span>
-        <span>Git & GitHub</span>
+            <h1>
+                Puja Priya Moran
+            </h1>
+
+            <div class="tagline-row">
+
+                <p class="tagline">
+                    Computer Science Undergraduate | Data Science & AI Enthusiast
+                </p>
+
+                <div class="contact-links">
+
+                    <a href="mailto:pujapriyamoran8@gmail.com">
+                        Email
+                    </a>
+
+                    <a href="https://linkedin.com/in/puja-priya-moran-a885b7326"
+                        target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="https://github.com/moranpriya"
+                        target="_blank">
+                        Github
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a dual-degree Computer Science student pursuing
+                B.Tech in Computer Science & Engineering
+                and B.Sc (Hons.) in Data Science & Artificial Intelligence.
+                My academic interests lie in Machine Learning,
+                Artificial Intelligence, Data Analytics,
+                and Intelligent System Design.
+            </p>
+
+            <p>
+                I am actively seeking research internship opportunities
+                in AI/ML, Data Science, and Secure Computing Systems
+                to apply theoretical knowledge to real-world problems.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="project">
+                <h3>Bachelor of Technology (B.Tech)</h3>
+
+                <p>
+                    Computer Science and Engineering <br>
+                    Dhemaji Engineering College <br>
+                    2024 - Present | SGPA : 7.76
+                </p>
+
+            </div>
+
+
+            <div class="project">
+                <h3>Bachelor of Science (B.Sc Hons.)</h3>
+
+                <p>
+                    Data Science & Artificial Intelligence <br>
+                    Indian Institute of Technology Guwahati <br>
+                    2024 - Present
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Higher Secondary School (HSS)</h3>
+
+                <p>
+                    Ramanujan Senior Secondary School, Nagaon <br>
+                    Percentage : 81%
+                </p>
+
+            </div>
+
+            <div class="project">
+                <h3>High School (HS)</h3>
+
+                <p>
+                    Jatiya Vidyalaya, Kakopather <br>
+                    Percentage : 90.33%
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <div class="skills">
+
+                <span>Python</span>
+                <span>C/C++</span>
+                <span>JavaScript</span>
+                <span>SQL</span>
+                <span>Machine Learning</span>
+                <span>MySQL</span>
+                <span>Java</span>
+                <span>HTML/CSS</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>SkyCast – Real-Time Weather Application (March-2026)</h3>
+
+                <p>
+                    Built a real-time Weather App using HTML, CSS, JavaScript,
+                    and OpenWeather API to fetch and display live weather data.
+                    Implemented city-based search to show temperature, humidity, 
+                    rain probability, sunrise, and sunset details.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Hostel Mess Dues Manager (December-2025)</h3>
+
+                <p>
+                    Built a Java-based console system
+                    for managing student payment records.
+                    Implemented OOP principles and file handling
+                    for persistent data storage.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>BookVault – Smart Bookstore Management System (October-2025)</h3>
+
+                <p>
+                    Developed a console-based bookstore management system in C++
+                    using dynamic memory allocation, classes, and string handling. 
+                    The system allows book search, inventory tracking, 
+                    and purchasing operations.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>SecureCash – ATM Banking System (August-2025)</h3>
+
+                <p>
+                    Designed a console-based ATM banking system in C++ implementing 
+                    PIN authentication, balance inquiry, deposit, and withdrawal 
+                    operations using object-oriented programming.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>ComputeX – Multi-Operation Calculator (August-2025)</h3>
+
+                <p>
+                    Built a console-based calculator in C++ capable of performing 
+                    arithmetic operations on multiple numbers using loops, functions, 
+                    and object-oriented programming.
+                </p>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Coursework</h2>
+            <p>
+                Data Structures & Algorithms,
+                Database Management Systems,
+                Data Science & AI,
+                Data Analysis,
+                Object Oriented Programming,
+                Design and Analysis of Algorithms,
+                Software Engineering,
+                Digital Systems,
+                Computer Organization & Architecture,
+                Full Stack Application Development,
+                Machine Learning
+            </p>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+
+            <p>
+                Learn to Program : The Fundamentals-University of Toronto <br>
+                Algorithms Specialization-Stanford <br>
+                Expressway to Data Science-University of Colorado Boulder <br>
+                Introduction to Generative AI Certification <br>
+                Programming with Generative AI-IITG-Coursera
+            </p>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+
+            <p>Phone : +91 9707122870</p>
+
+        </section>
+
+        <footer>
+            © 2026 Puja Priya Moran | Academic Portfolio
+        </footer>
     </div>
-</section>
 
-<section id="projects" class="section">
-    <h2>Projects</h2>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 
-    <div class="card">
-        <h3>Loan Approval Prediction System (2026–Present)</h3>
-        <p>
-            Developed ML classification models using Logistic Regression and Random Forest
-            to predict loan approval. Performed EDA, preprocessing, and feature encoding.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Hostel Mess Dues Manager (Sept 2025)</h3>
-        <p>
-            Java-based console application to manage hostel mess dues.
-            Implemented file handling for persistent data storage and receipt generation.
-        </p>
-    </div>
-
-    <div class="card">
-        <h3>Personal Portfolio Website (Dec 2025)</h3>
-        <p>
-            Developed using HTML, CSS, JavaScript and Local Storage.
-            Implemented form validation and dynamic project display.
-        </p>
-    </div>
-</section>
-
-<section id="certifications" class="section">
-    <h2>Certifications</h2>
-    <ul>
-        <li>Programming with Generative AI – Certified</li>
-        <li>Google Cloud – Introduction to Large Language Models</li>
-        <li>Kaggle – Python Certificate</li>
-        <li>IBM Data Science Professional Certificate</li>
-    </ul>
-</section>
-
-<section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: pujapriyamoran8@gmail.com</p>
-</section>
-
-<footer>
-    <p>© 2026 Puja Priya Moran | All Rights Reserved</p>
-</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
